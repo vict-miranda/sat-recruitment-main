@@ -32,7 +32,7 @@ namespace Sat.Recruitment.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = null)]
         public async Task<ActionResult> CreateUser(User userDto)
         {
-            var errors = _usersValidateErrors.ValidateErrors(userDto);
+            var errors = await _usersValidateErrors.ValidateErrors(userDto);
 
             if (errors.Any())
                 return new BadRequestObjectResult(new Result

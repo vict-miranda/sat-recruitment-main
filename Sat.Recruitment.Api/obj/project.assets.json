@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
+      "projectUniqueName": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
       "projectName": "Sat.Recruitment.Api",
-      "projectPath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
+      "projectPath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
       "packagesPath": "C:\\Users\\victor.miranda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\obj\\",
+      "outputPath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victor.miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",

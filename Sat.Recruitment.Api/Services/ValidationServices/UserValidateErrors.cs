@@ -2,6 +2,7 @@
 using Sat.Recruitment.Api.Services.Interfaces;
 using Sat.Recruitment.Api.Services.ValidationServices.Interfaces;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Sat.Recruitment.Api.Services.ValidationServices
 {
@@ -15,10 +16,10 @@ namespace Sat.Recruitment.Api.Services.ValidationServices
         }
 
         /// <inheritdoc/>
-        public List<string> ValidateErrors(User user)
+        public async Task<List<string>> ValidateErrors(User user)
         {
             var errors = new List<string>();
-            var isDuplicated = _userService.ValidateDuplicity(user);
+            var isDuplicated = await _userService.ValidateDuplicity(user);
 
             if (isDuplicated)
                 errors.Add("The user is duplicated");

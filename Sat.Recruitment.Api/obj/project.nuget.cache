@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oG8slnEIPYdUpgQUyQDEDjxVXkWcow/DC6wzrq8YynMAODaKov4tlGQ95BlUaf4dvgbMsSzNpuy9pTN6jHhlog==",
+  "dgSpecHash": "RPWYsqqbSJDA0yhRIS4uRcArP8mugeue6CcIe2l9lylAS5X4HA13BcxPyCvXshp0eeHz6VKt6ZmIMs3I3ihvkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
+  "projectFilePath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victor.miranda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\victor.miranda\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

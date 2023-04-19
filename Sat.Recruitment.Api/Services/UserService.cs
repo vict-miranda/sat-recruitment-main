@@ -3,15 +3,16 @@ using Sat.Recruitment.Api.Services.Interfaces;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Sat.Recruitment.Api.Services
 {
     public class UserService : IUserService
     {
         /// <inheritdoc/>
-        public bool ValidateDuplicity(User newUser)
+        public async Task<bool> ValidateDuplicity(User newUser)
         {
-            var _users = ReadUsers();
+            var _users = await ReadUsers();
             if (_users.Where(x => x.Email == newUser.Email || x.Phone == newUser.Phone).Count() > 0)
                 return true;
             if (_users.Where(x => x.Name == newUser.Name && x.Address == newUser.Address).Count() > 0)
@@ -21,14 +22,14 @@ namespace Sat.Recruitment.Api.Services
         }
 
         /// <inheritdoc/>
-        public List<User> ReadUsers()
+        public async Task<List<User>> ReadUsers()
         {
             var reader = ReadUsersFromFile();
             var users = new List<User>();
 
             while (reader.Peek() >= 0)
             {
-                var line = reader.ReadLineAsync().Result;
+                var line = await reader.ReadLineAsync();
 
                 var user = new User
                 {

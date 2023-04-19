@@ -29,9 +29,9 @@ namespace Sat.Recruitment.Test
             var userService = new Mock<IUserService>();
             var usersValidateErrors = new Mock<IUserValidateErrors> { DefaultValue = DefaultValue.Mock };
 
-            usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).Returns(new List<string>());
-            userService.Setup(x => x.ValidateDuplicity(MockUser)).Returns(false);
-            userService.Setup(x => x.ReadUsers()).Returns(new List<User>());
+            usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).ReturnsAsync(new List<string>());
+            userService.Setup(x => x.ValidateDuplicity(MockUser)).ReturnsAsync(false);
+            userService.Setup(x => x.ReadUsers()).ReturnsAsync(new List<User>());
 
             var userController = new UsersController(usersValidateErrors.Object);
 
@@ -47,9 +47,9 @@ namespace Sat.Recruitment.Test
             var userService = new Mock<IUserService>();
             var usersValidateErrors = new Mock<IUserValidateErrors> { DefaultValue  = DefaultValue.Mock };
 
-            usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).Returns(new List<string> { "The user is duplicated" });
-            userService.Setup(x => x.ValidateDuplicity(MockUser)).Returns(true);
-            userService.Setup(x => x.ReadUsers()).Returns(new List<User>());
+            usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).ReturnsAsync(new List<string> { "The user is duplicated" });
+            userService.Setup(x => x.ValidateDuplicity(MockUser)).ReturnsAsync(true);
+            userService.Setup(x => x.ReadUsers()).ReturnsAsync(new List<User>());
 
             var userController = new UsersController(usersValidateErrors.Object);
 
@@ -66,9 +66,9 @@ namespace Sat.Recruitment.Test
             var userService = new Mock<IUserService>();
             var usersValidateErrors = new Mock<IUserValidateErrors> { DefaultValue = DefaultValue.Mock };
 
-            usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).Returns(new List<string> { "The name is required" });
-            userService.Setup(x => x.ValidateDuplicity(MockUser)).Returns(true);
-            userService.Setup(x => x.ReadUsers()).Returns(new List<User>());
+            usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).ReturnsAsync(new List<string> { "The name is required" });
+            userService.Setup(x => x.ValidateDuplicity(MockUser)).ReturnsAsync(true);
+            userService.Setup(x => x.ReadUsers()).ReturnsAsync(new List<User>());
 
             var userController = new UsersController(usersValidateErrors.Object);
 

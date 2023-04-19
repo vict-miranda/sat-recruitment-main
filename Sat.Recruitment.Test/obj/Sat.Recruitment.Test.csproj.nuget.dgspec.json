@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj": {}
+    "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj": {
+    "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
+        "projectUniqueName": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
         "projectName": "Sat.Recruitment.Api",
-        "projectPath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
+        "projectPath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
         "packagesPath": "C:\\Users\\victor.miranda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\obj\\",
+        "outputPath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victor.miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj": {
+    "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj",
+        "projectUniqueName": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj",
         "projectName": "Sat.Recruitment.Test",
-        "projectPath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj",
+        "projectPath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Test\\Sat.Recruitment.Test.csproj",
         "packagesPath": "C:\\Users\\victor.miranda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Test\\obj\\",
+        "outputPath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victor.miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj": {
-                "projectPath": "C:\\Users\\victor.miranda\\Documents\\Sat.Recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj"
+              "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj": {
+                "projectPath": "C:\\Code\\sat-recruitment-main\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj"
               }
             }
           }
