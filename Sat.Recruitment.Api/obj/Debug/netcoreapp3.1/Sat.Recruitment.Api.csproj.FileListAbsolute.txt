@@ -39,7 +39,6 @@ C:\Code\sat-recruitment-main\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Microso
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.csproj.AssemblyReference.cache
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.AssemblyInfoInputs.cache
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.AssemblyInfo.cs

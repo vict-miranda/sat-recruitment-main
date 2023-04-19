@@ -31,7 +31,6 @@ namespace Sat.Recruitment.Test
 
             usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).ReturnsAsync(new List<string>());
             userService.Setup(x => x.ValidateDuplicity(MockUser)).ReturnsAsync(false);
-            userService.Setup(x => x.ReadUsers()).ReturnsAsync(new List<User>());
 
             var userController = new UsersController(usersValidateErrors.Object);
 
@@ -49,7 +48,6 @@ namespace Sat.Recruitment.Test
 
             usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).ReturnsAsync(new List<string> { "The user is duplicated" });
             userService.Setup(x => x.ValidateDuplicity(MockUser)).ReturnsAsync(true);
-            userService.Setup(x => x.ReadUsers()).ReturnsAsync(new List<User>());
 
             var userController = new UsersController(usersValidateErrors.Object);
 
@@ -68,7 +66,6 @@ namespace Sat.Recruitment.Test
 
             usersValidateErrors.Setup(x => x.ValidateErrors(MockUser)).ReturnsAsync(new List<string> { "The name is required" });
             userService.Setup(x => x.ValidateDuplicity(MockUser)).ReturnsAsync(true);
-            userService.Setup(x => x.ReadUsers()).ReturnsAsync(new List<User>());
 
             var userController = new UsersController(usersValidateErrors.Object);
 

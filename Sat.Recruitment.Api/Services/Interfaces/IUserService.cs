@@ -14,9 +14,9 @@ namespace Sat.Recruitment.Api.Services.Interfaces
         Task<bool> ValidateDuplicity(User newUser);
 
         /// <summary>
-        /// Convert readed users from file to User objects
+        /// Read all the users from txt file
         /// </summary>
         /// <returns>A list of <see cref="User"/></returns>
-        Task<List<User>> ReadUsers();
+        Task<List<User>> ReadUsersFromFile();
     }
 }
