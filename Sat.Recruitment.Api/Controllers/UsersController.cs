@@ -49,38 +49,8 @@ namespace Sat.Recruitment.Api.Controllers
                 Address = userDto.Address,
                 Phone = userDto.Phone,
                 UserType = userDto.UserType,
-                Money = userDto.Money
+                Money = Utils.Utils.SetMoneyByUserType(userDto.UserType, userDto.Money)
             };
-
-            switch (newUser.UserType)
-            {
-                case "Normal":
-                    if (userDto.Money > 100)
-                    {
-                        var percentage = Convert.ToDecimal(0.12);
-                        //If new user is normal and has more than USD100
-                        newUser.Money = newUser.Money + (userDto.Money * percentage);
-                    }
-                    else if (userDto.Money < 100 && userDto.Money > 10)
-                    {
-                        var percentage = Convert.ToDecimal(0.8);
-                        newUser.Money = newUser.Money + (userDto.Money * percentage);
-                    }
-                    break;
-                case "SuperUser":
-                    if (userDto.Money > 100)
-                    {
-                        var percentage = Convert.ToDecimal(0.20);
-                        newUser.Money = newUser.Money + (userDto.Money * percentage);
-                    }
-                    break;
-                case "Premium":
-                    if (userDto.Money > 100)
-                        newUser.Money = newUser.Money + (userDto.Money * 2);                    
-                    break;
-                default:
-                    break;
-            }            
 
             return new CreatedResult("CreateUser", new Result
             {
