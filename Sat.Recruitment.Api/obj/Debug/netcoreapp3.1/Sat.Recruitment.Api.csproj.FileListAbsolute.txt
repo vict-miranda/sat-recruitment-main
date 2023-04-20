@@ -53,3 +53,4 @@ C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Rec
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.dll
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.pdb
 C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.genruntimeconfig.cache
+C:\Code\sat-recruitment-main\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.csproj.AssemblyReference.cache
